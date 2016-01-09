@@ -35,7 +35,7 @@ public class MultiThreadProxyPipe extends ThreadProxyPipe {
 
 	protected void replayGraph(Graph graph) {
 		lock.lock();
-		super.replayGraph(graph);
+		//super.replayGraph(graph);
 		lock.unlock();
 	}
 	

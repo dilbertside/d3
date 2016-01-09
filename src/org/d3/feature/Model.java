@@ -45,8 +45,10 @@ import org.graphstream.stream.thread.ThreadProxyPipe;
 import org.graphstream.ui.layout.Layout;
 import org.graphstream.ui.layout.Layouts;
 import org.graphstream.ui.swingViewer.DefaultView;
-import org.graphstream.ui.swingViewer.Viewer;
-import org.graphstream.ui.swingViewer.Viewer.CloseFramePolicy;
+import org.graphstream.ui.view.Viewer;
+//import org.graphstream.ui.swingViewer.Viewer;
+//import org.graphstream.ui.swingViewer.Viewer.CloseFramePolicy;
+import org.graphstream.ui.view.Viewer.CloseFramePolicy;
 
 @ActorPath("/features/model")
 public class Model extends Feature implements StepActor, Bindable {

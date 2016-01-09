@@ -26,7 +26,7 @@ import javax.swing.JFrame;
 
 import org.graphstream.ui.swingViewer.DefaultView;
 import org.graphstream.ui.swingViewer.GraphRenderer;
-import org.graphstream.ui.swingViewer.Viewer;
+import org.graphstream.ui.view.Viewer;
 
 public class ResizableView extends DefaultView {
 	/**
